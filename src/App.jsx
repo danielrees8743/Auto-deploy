@@ -31,6 +31,10 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
+      <img
+        src="https://picsum.photos/200/300"
+        alt="random image"
+      />
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>count is {count}</button>
         <p>
