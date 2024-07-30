@@ -9,6 +9,7 @@ function App() {
   return (
     <>
       <div>This is a simple page</div>
+      <h1>I just added this line as a heading</h1>
       <div>
         <a
           href="https://vitejs.dev"
