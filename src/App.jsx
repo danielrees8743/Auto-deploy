@@ -25,7 +25,7 @@ function App() {
 
       <div className="flex flex-col items-center justify-center space-y-3">
         <button
-          className="rounded bg-blue-400 px-2 py-1"
+          className="rounded bg-blue-400 px-2 py-1 hover:bg-blue-500 hover:shadow-lg"
           onClick={() => setCount((count) => count + 1)}
         >
           The new count is {count}
@@ -34,7 +34,11 @@ function App() {
         <img src="https://picsum.photos/200/300" alt="Random image" />
       </div>
       <p className="read-the-docs">
-        Click on the Vite and React logos to learn more
+        This demo will display how we would like our continuous development and
+        continuous deployment would look like.
+      </p>
+      <p className="text-2xl font-semibold">
+        Where I am using Vercel that would be replaced by your hosting platform.
       </p>
     </div>
   );
