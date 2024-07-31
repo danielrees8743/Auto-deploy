@@ -31,6 +31,7 @@ function App() {
           The new count is {count}
         </button>
         <p>I&lsquo;ve added a new line here, also the count it {count}</p>
+        <img src="https://picsum.photos/200/300" alt="Random image" />
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
