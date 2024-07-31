@@ -31,10 +31,7 @@ function App() {
         </a>
       </div>
       <h1>Vite + React</h1>
-      <img
-        src="https://picsum.photos/200/300"
-        alt="random image"
-      />
+
       <div className="card">
         <button onClick={() => setCount((count) => count + 1)}>The new count is {count}</button>
         <p>I&lsquo;ve added a new line here, also the count it {count}</p>
