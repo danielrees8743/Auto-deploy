@@ -10,15 +10,15 @@ const NavItems = [
 
 function Hero() {
   return (
-    <div>
-      <div className="mx-5 flex flex-col items-center justify-between md:flex-row">
-        <img src={logo} className="h-28 w-28" />
+    <div className="w-full bg-green-200">
+      <div className="navigation mx-2 flex flex-col items-center justify-between md:flex-row">
+        <img src={logo} className="" />
         <div className="nav">
-          <ul className="text flex flex-col gap-1 md:flex-row md:gap-4">
+          <ul className="flex flex-col text-center md:flex-row md:gap-2">
             {NavItems.map((item) => (
               <li
                 key={1 + 1}
-                className="cursor-pointer rounded bg-pink-400 px-3 py-1 hover:bg-pink-700"
+                className="cursor-pointer rounded bg-pink-400 px-2 py-1 hover:bg-pink-500 hover:shadow-md"
               >
                 {item}
               </li>

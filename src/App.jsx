@@ -10,7 +10,7 @@ function App() {
   return (
     <>
       <Hero />
-      <div className="flex h-screen w-screen flex-col items-center justify-center gap-5 bg-slate-900 text-slate-200">
+      <div className="flex h-screen flex-col items-center justify-center gap-5 bg-slate-900 text-slate-200">
         <div className="mt-2 flex items-center justify-center">
           This is a demo React app using vite
         </div>
@@ -37,7 +37,7 @@ function App() {
           <p>I&lsquo;ve added a new line here, also the count it {count}</p>
           <img src="https://picsum.photos/200/300" alt="Random image" />
         </div>
-        <p className="read-the-docs">
+        <p className="">
           This demo will display how we would like our continuous development
           and continuous deployment would look like.
         </p>
